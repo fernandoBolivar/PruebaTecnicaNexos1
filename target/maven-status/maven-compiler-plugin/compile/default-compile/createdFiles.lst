@@ -1,0 +1,10 @@
+modelo\entity\Empleados.class
+controlador\EmpleadosBean.class
+controlador\NavigationBean.class
+modelo\dao\DepartamentosDao.class
+com\nexos\pruebatecnica\pruebatecnicanexos\resources\JavaEE8Resource.class
+modelo\dao\EmpleadosDao.class
+modelo\utilidades\HibernateUtil.class
+controlador\DepartamentosBean.class
+com\nexos\pruebatecnica\pruebatecnicanexos\JAXRSConfiguration.class
+modelo\entity\Departamentos.class

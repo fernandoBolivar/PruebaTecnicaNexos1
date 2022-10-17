@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="modelo.entity.Departamentos" table="DEPARTAMENTOS">
+<id name="id" column="ID">
+<generator class="increment"/>
+</id>
+<property name="DepartamentoCodigo" column="DEPARTAMENTO_CODIGO"/>
+<property name="DepartamentoNombre" column="DEPARTAMENTO_NOMBRE"/>
+<property name="FechaHoraCrea" column="FECHA_HORA_CREA"/>
+<property name="FechaHoraModifica" column="FECHA_HORA_MODIFICA"/>
+</class>
+</hibernate-mapping>
+
